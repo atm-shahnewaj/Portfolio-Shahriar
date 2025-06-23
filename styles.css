@@ -2,60 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
 }
+
 .navbar {
-    height: 60px;
+    height: 50px;
     width: 100%;
-    background-color: rgba(34,34,34,0.8);
+    background-color: rgba(34, 34, 34, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
     top: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     position: fixed;
     backdrop-filter: blur(10px);
 }
 
-.navbar ul{
-    display:flex;
+.navbar ul {
+    display: flex;
 }
 
 .navbar li {
- 
+
     list-style-type: none;
     margin-left: 40px;
 }
 
 .navbar a:hover {
- 
+
     background-color: white;
     color: black;
 }
 
-.navbar a{
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
+.navbar a {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 
-.about-me{
+.about-me {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    margin:0 100px;
+    margin: 0 100px;
+    min-height: fit-content;
+    min-width: fit-content;
+    margin-bottom: 5vh;
 }
 
 .about-right {
@@ -67,7 +71,7 @@ a {
 }
 
 .about-left {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .about-text {
@@ -81,27 +85,27 @@ a {
     width: 40%;
 }
 
-.about-links ul{
+.about-links ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-.about-links ul a{
+.about-links ul a {
     color: white;
     font-size: 1.5rem;
 }
 
 .about-links a:hover {
- 
+
     background-color: white;
     color: black;
 }
 
-.about-links a{
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
+.about-links a {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .hr {
@@ -127,10 +131,12 @@ a {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+
 .education {
     height: 100vh;
-    margin:0 11%;
-   
+    margin: 0 11%;
+    min-height: fit-content;
+    margin-bottom: 5vh;
 }
 
 .edu-content {
@@ -149,6 +155,7 @@ a {
     background-repeat: no-repeat;
     margin-right: 20px;
 }
+
 .logo2 {
     height: 100px;
     width: 100px;
@@ -157,6 +164,7 @@ a {
     background-repeat: no-repeat;
     margin-right: 20px;
 }
+
 .logo3 {
     height: 100px;
     width: 100px;
@@ -171,10 +179,12 @@ a {
     margin-left: 30px;
     color: rgb(225, 225, 225);
 }
-    
+
 .projects {
     height: 100vh;
-    margin:0 11%;
+    margin: 0 11%;
+    min-height: fit-content;
+    margin-bottom: 5vh;
 }
 
 
@@ -187,7 +197,7 @@ a {
     text-decoration: underline;
 }
 
-.projects p{
+.projects p {
     font-size: 1.5rem;
     margin-left: 5%;
     color: rgb(225, 225, 225);
@@ -203,21 +213,23 @@ a {
 
 .pic1 {
     height: 100%;
-    width:300px;
+    width: 300px;
     background-image: url("project1.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .pic2 {
     height: 100%;
-    width:300px;
+    width: 300px;
     background-image: url("project3.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .pic3 {
     height: 100%;
-    width:300px;
+    width: 300px;
     background-image: url("project2.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -225,14 +237,17 @@ a {
 
 .experience {
     height: 100vh;
-    margin:0 11%;
+    margin: 0 11%;
+    min-height: fit-content;
+    /* margin-bottom: 30px; */
+    margin-bottom: 5vh;
 }
 
 .exp-content {
     margin-top: 80px;
 }
 
-.exp-content p{
+.exp-content p {
     font-size: 1.25rem;
     color: rgb(225, 225, 225);
 }
@@ -250,14 +265,16 @@ a {
 
 .activities {
     height: 100vh;
-    margin:0 11%;
+    margin: 0 11%;
+    min-height: fit-content;
+    margin-bottom: 5vh;
 }
 
 .act-content {
     margin-top: 80px;
 }
 
-.act-content p{
+.act-content p {
     font-size: 1.25rem;
     color: rgb(225, 225, 225);
 }
@@ -275,7 +292,7 @@ a {
 footer {
     height: 60px;
     width: 100%;
-    background-color: rgba(34,34,34,0.8);
+    background-color: rgba(34, 34, 34, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
